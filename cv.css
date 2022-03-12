@@ -105,6 +105,13 @@ body {
 	color: #333;
 }
 
+.kiri .biodata::after {
+	content: '';
+	display: block;
+	border-bottom: 8px solid #333;
+	width: 15%;
+}
+
 .kanan {
 	grid-area: kanan;
 }
