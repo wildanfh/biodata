@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+	<meta charset="UTF-8">
+	<title>Biodata</title>
+	<link rel="stylesheet" href="../src/resource/cv.css"></link>
+</head>
+<body>
+	<div class="container">
+		<div class="kotak k1"></div>
+		<div class="kotak k2"></div>
+		<div class="kotak k3"></div>
+		<img src="../src/img/saya.png" class="img-saya">
+			<div class="kiri">
+				<div class="skill-container">
+					<h2 class="sub-judul">Keahlian</h2>
+					<li class="bold">
+						Desain Grafis
+						<div class="diagram-container">
+							<span class="diagram"></span>
+						</div>
+						<span class="persen">75%</span>
+					</li>
+					<li class="bold">
+						Multimedia
+						<div class="diagram-container">
+							<span class="diagram dua"></span>
+						</div>
+						<span class="persen">70%</span>
+					</li>
+					<li class="bold">
+						Web Design
+						<div class="diagram-container">
+							<span class="diagram tiga"></span>
+						</div>
+						<span class="persen">85%</span>
+					</li>
+					<li class="bold">
+						Programming
+						<div class="diagram-container">
+							<span class="diagram empat"></span>
+						</div>
+						<span class="persen">95%</span>
+					</li>
+				</div>
+			</div>
+			<div class="kanan">
+				<h1>Wildan Firdaus<br> Al Hafidz</h1>
+
+				<div class="tentang-container">
+					<h2 class="sub-judul tentang">Tentang Saya</h2>
+					<p class="nest-p">
+						Nama lengkap saya Wildan Firdaus Al Hafidz. Lahir pada tanggal 30 Januari 2005. Nama panggilan saya Wildan. Saya memiliki ketertarikan terhadap dunia programming.
+					</p>
+				</div>
+
+				<ul class="data-container">
+					<h2 class="sub-judul">Data Pribadi</h2>
+					<li class="bold">Nama :
+						<span class="nest-p">Wildan Firdaus Al Hafidz</span>
+					</li>
+					<li class="bold">Alamat :
+						<span class="nest-p">Perum Idaman 4, Tingkir Tengah, Tingkir, Salatiga</span>
+					</li>
+					<li class="bold">Tempat Tanggal Lahir :
+						<span class="nest-p">Yogyakarta, 30 Januari 2005</span>
+					</li>
+					<li class="bold">Pendidikan Terakhir :
+						<span class="nest-p">SMA (Kelas 1) Assalaam Sukoharjo</span>
+					</li>
+					<li class="bold">Cita - Cita :
+						<span class="nest-p">Programmer, Developer</span>
+					</li>
+				</ul>
+			</div>
+	</div>
+	<script>
+		const container = document.querySelector('.container');
+		container.addEventListener('click', function() {
+			this.classList.toggle('hilang');
+		});
+	</script>
+</body>
+</html>
